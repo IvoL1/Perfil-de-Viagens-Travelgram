@@ -18,7 +18,7 @@ Desafio prático - Responsividade
 <br>
 
 <p align="center">
-  <img src="assets/wallpaper.svg" alt="Screenshot Desktop" width="100%">
+  <img src="assets/Thumbnail.png" alt="Screenshot Desktop" width="100%">
 </p>
 
 ## 🚀 Tecnologias
