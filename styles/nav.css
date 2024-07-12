@@ -1,0 +1,37 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	background: var(--surface-color);
+	padding: 1.25rem 2rem;
+}
+
+.menu-nav {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font: var(--menu-text);
+
+	& li:nth-child(1) {
+		& img {
+			width: 1.5rem;
+			height: 1.5rem;
+		}
+	}
+
+	& li:nth-child(4) {
+		& img {
+			width: 2.5rem;
+			height: 2.5rem;
+		}
+	}
+}
+
+@media (width <= 23.4375rem) {
+  nav {
+	padding: 1rem;
+
+  }
+	.menu-nav li:not(:has(img)) {
+		display: none; /* Esconde as <li> que não contêm <img> */
+	}
+}
