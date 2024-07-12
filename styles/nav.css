@@ -10,6 +10,14 @@ nav {
 	gap: 1rem;
 	font: var(--menu-text);
 
+	& li {
+		transition: color 0.4s;
+	}
+
+	& li:hover {
+		color: var(--brand-color);
+	}
+
 	& li:nth-child(1) {
 		& img {
 			width: 1.5rem;
