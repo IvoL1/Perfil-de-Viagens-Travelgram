@@ -1,8 +1,7 @@
 nav {
+	padding: 1.25rem 2rem;
 	display: flex;
 	justify-content: space-between;
-	background: var(--surface-color);
-	padding: 1.25rem 2rem;
 }
 
 .menu-nav {
@@ -15,6 +14,7 @@ nav {
 		& img {
 			width: 1.5rem;
 			height: 1.5rem;
+			margin-right: 0.25rem;
 		}
 	}
 
@@ -26,11 +26,10 @@ nav {
 	}
 }
 
-@media (width <= 23.4375rem) {
-  nav {
-	padding: 1rem;
-
-  }
+@media (width <= 29.6875rem) {
+	nav {
+		padding: 1rem;
+	}
 	.menu-nav li:not(:has(img)) {
 		display: none; /* Esconde as <li> que não contêm <img> */
 	}

@@ -45,3 +45,12 @@ body {
 	line-height: 1.5;
 	color: var(--text-color-secondary);
 }
+
+.container {
+	max-width: 80rem;
+	margin-inline: auto;
+}
+
+.bg-color {
+	background-color: var(--surface-color);
+}

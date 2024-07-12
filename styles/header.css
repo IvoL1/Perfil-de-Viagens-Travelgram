@@ -1,9 +1,10 @@
 header {
+	background-color: var(--surface-color);
+	margin: auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 2rem;
-	background-color: var(--surface-color);
 }
 
 .profile-card {
@@ -44,10 +45,11 @@ header {
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
+		font: var(--paragraph-md);
 	}
 }
 
-@media (width <= 23.4375rem) {
+@media (width <= 29.6875rem) {
 	header {
 		flex-direction: column;
 		gap: 2rem;

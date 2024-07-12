@@ -1,0 +1,21 @@
+footer {
+	display: flex;
+	padding: 1.5rem 2rem;
+	justify-content: space-between;
+	align-items: center;
+	font: var(--menu-text);
+
+	& span:last-child {
+		display: flex;
+		gap: 1rem;
+	}
+}
+
+@media (width <= 29.6875rem) {
+	footer {
+		padding: 1rem;
+		flex-direction: column;
+		justify-content: center;
+		gap: 1rem;
+	}
+}

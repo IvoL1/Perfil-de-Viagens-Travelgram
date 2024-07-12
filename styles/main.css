@@ -1,0 +1,26 @@
+main {
+	padding: 1.5rem 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+
+	& img {
+		width: 17.875rem;
+		height: 17.875rem;
+	}
+}
+
+@media (width <= 29.6875rem) {
+	main {
+		gap: 1rem;
+		padding: 1rem;
+
+		& img {
+			width: 20.5rem;
+			height: 20.5rem;
+			width: 100%;
+		}
+	}
+}
